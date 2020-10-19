@@ -1,0 +1,37 @@
+body {
+    background-color: #D1D4E0;
+    font-family: 'Hind Guntur', sans-serif;
+}
+
+header {
+    width: 100vw;
+    height: 1550px;
+    background-color: #4F5148;
+}
+
+.hamburger {
+    /* height: 930px; */
+    position: fixed;
+    right: 0;
+}
+
+.ham-bg {
+    width: 600px;
+    height: 900px;
+    overflow: hidden;
+    /* border-radius: 50%; */
+    /* transform: translateX(600px); */
+    /* 用jquery寫點擊後遮罩移動，變大 */
+}
+
+.menu {
+    right: 100px;
+    top: 20px;
+}
+
+.menu a {
+    color: #D1D4E0;
+    font-size: 50px;
+    display: block;
+    text-align: end;
+}
