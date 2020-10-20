@@ -1,0 +1,306 @@
+body {
+    background-color: #D1D4E0;
+    font-family: 'Hind Guntur', sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    height: 1100px;
+    background-color: #4F5148;
+    margin: 0;
+}
+@media (min-width: 1200px){
+.container {
+    max-width: 1440px;
+}}
+/* .container{
+    margin: 0;
+} */
+
+/* hamburger explode section */
+/*  */
+.hambar{
+    width: 100%;
+    /* height: 800px; */
+}
+
+.ham-icon-show{
+    width: 40px;
+    height: 40px;
+    right: 80px;
+    top: 60px;
+    
+}
+.ham-icon-show img{
+    width: 100%;
+    fill: white;
+}
+
+.hamburger {
+    /* height: 930px; */
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 10;
+}
+
+.ham-bg {
+    width: 550px;
+    /* height: 900px; */
+    overflow: hidden;
+    right: -50px;
+    top: 0;
+    /* border-radius: 50%; */
+    /* transform: translateX(600px); */
+    /* 用jquery寫點擊後遮罩移動，變大 */
+}
+
+.menu {
+    right: 130px;
+    top: 60px;
+}
+.ham-icon{
+    width: 40px;
+    height: 40px;
+    margin: 0 0 50px 200px;
+}
+.menu img{
+    width: 100%;
+}
+
+.menu a {
+    color: #D1D4E0;
+    font-size: 40px;
+    line-height: 80px;
+    font-weight: 600;
+    display: block;
+    text-align: end;
+}
+
+.linpeng{
+padding: 200px 0 0 100px;
+}
+
+.lin{
+    height: 400px;
+}
+.lin img{
+    height: 100%;
+    object-fit: contain;
+}
+.peng{
+    height: 400px;
+    margin-left: 50px;
+    z-index: 1;
+}
+.peng img{
+    height: 100%;
+    object-fit: contain;
+}
+.star{
+    width: 200px;
+    height: 200px;
+    top: -750px;
+    left: 950px;
+}
+.star img{
+    width: 100%;
+}
+/* carousel start*/
+.banner {
+    margin: 0 auto;
+    width: 250px;
+    height: 200px;
+    position: relative;
+    perspective: 1000px;
+    z-index: 2;
+  }
+  
+  .carousel {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+  }
+  
+  .item {
+    display: block;
+    position: absolute;
+    background: #000;
+    width: 250px;
+    height: 200px;
+    line-height: 200px;
+    font-size: 5em;
+    text-align: center;
+    color: #FFF;
+    opacity: 0.95;
+    border-radius: 10px;
+  }
+  
+  .a {
+    transform: rotateY(0deg) translateZ(250px);
+    background: #ed1c24;
+  }
+  .b {
+    transform: rotateY(60deg) translateZ(250px);
+    background: #0072bc;
+  }
+  .c {
+    transform: rotateY(120deg) translateZ(250px);
+    background: #39b54a;
+  }
+  .d {
+    transform: rotateY(180deg) translateZ(250px);
+    background: #f26522;
+  }
+  .e {
+    transform: rotateY(240deg) translateZ(250px);
+    background: #630460;
+  } 
+  .f {
+    transform: rotateY(300deg) translateZ(250px);
+    background: #8c6239;
+  }
+  
+  .next, .prev {
+    color: #444;
+    position: absolute;
+    top: 100px;
+    padding: 1em 2em;
+    cursor: pointer;
+    background: #CCC;
+    border-radius: 5px;
+    border-top: 1px solid #FFF;
+    box-shadow: 0 5px 0 #999;
+    transition: box-shadow 0.1s, top 0.1s;
+  }
+  .next:hover, .prev:hover { color: #000; }
+  .next:active, .prev:active {
+    top: 104px;
+    box-shadow: 0 1px 0 #999;
+  }
+  .next { right: 5em; }
+  .prev { left: 5em; }
+
+/* carousel end */
+/* ---------------------------------------------------------- */
+
+/* .section1{
+    background-color:  #D1D4E0;
+    background-image: url(./svg/sun_kit.svg)  ;
+    background-size: contain;
+} */
+    .bg-wrap{
+    top: 300px;
+    z-index: -10;
+
+}
+  .section1{
+      width: 100%;
+      height: 4500px;
+      /* top: 0;
+      left: 0px; */
+  }
+  .section1 img{
+      width: 100%;
+      object-fit: contain;
+  }
+  /* .graphic{} */
+  
+  .alu{
+      height: 150px;
+  }
+  .aluminum{
+      width: 250px;
+      /* height: 600px; */
+      right: 250px;
+      top: -80px;
+      z-index: 3;
+  }
+  .aluminum img, .candle-pic img, .tag img, .eye-pic img{
+      width: 100%;
+      object-fit: contain;
+  }
+  .tag{
+    width: 300px;
+    top: 120px;
+    right: 110px;
+    /* margin: 150px -150px; */
+  }
+  .tag img{
+    width: 100%;
+  }
+  .tag h2{
+    color: #D1D4E0;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 600;
+    top: 48px;
+    left: 170px;
+  }
+/* rwd圖片大小，位置三組 */
+  /* .toooot{
+      height: 1000px;
+  } */
+  .work-text{
+      font-size: 20px;
+      line-height: 15px;
+      color: #fff;
+  }
+  .title-text{
+      font-size: 25px;
+      font-weight: 500;
+      margin-bottom: 25px;
+  }
+  .toooot{
+      margin: 0 auto;
+  }
+  .toooot-wrap{
+    margin-left: 130px;
+  }
+  .toooot-pic{
+      width: 900px;
+      height: 700px;
+  }
+  .poster{
+      height: 2400px;
+  }
+.planewt-wrap{
+    margin-left: 120px;
+}
+.planewt-pic{
+    width: 550px;
+    height: 800px;
+    background: url(./img/graphic2.jpg) no-repeat;
+    background-size: contain;
+}
+.eye{
+    margin-top: -220px;
+    /* transform: translateY(-280px); */
+}
+.eye-pic{
+    width: 570px;
+    padding-right: 30px;
+}
+.tea{
+    margin-top: -100px;
+    /* transform: translateY(-380px); */
+}
+.tea-pic{
+    width: 750px;
+}
+/* .packaging{} */
+.candle{
+    /* margin-top: -400px; */
+    /* clear: both; */
+}
+.candle-pic{
+    width: 1000px;
+    padding: 100px 0;
+}
+.slider{
+    width: 1500px;
+    height: 450px;
+}
